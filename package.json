@@ -1,0 +1,49 @@
+{
+  "name": "resume-nextjs",
+  "version": "1.0.0",
+  "description": "Resume website with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export .",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=1 next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutanek/resume-nextjs.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NextJS"
+  ],
+  "author": "Maaloul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nutanek/resume-nextjs/issues"
+  },
+  "homepage": "https://github.com/nutanek/resume-nextjs#readme",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "7.0.0-rc.1",
+    "autoprefixer": "^7.1.5",
+    "babel-loader": "^8.0.0",
+    "glob": "^7.1.2",
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.0",
+    "parse-markdown-table": "0.0.4",
+    "path": "^0.12.7",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.8",
+    "raw-loader": "^0.5.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-markdown": "^5.0.2",
+    "react-particles-js": "^2.0.0",
+    "react-typist": "^1.1.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "webpack-bundle-analyzer": "^2.9.0"
+  }
+}
